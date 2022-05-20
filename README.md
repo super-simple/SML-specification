@@ -82,6 +82,7 @@ sml根据用途,划分成两种模式
 写文档使用,sml所有的语法都支持
 
 ```sml
+sml(){} //保留,用于以后扩展
 document(foo="bar" bar="foo"){
     hello document
     body{
@@ -98,6 +99,7 @@ document(foo="bar" bar="foo"){
 用作配置文件,节点只能全部包含值或者只能全部包含节点,不能既包含节点又包含值
 
 ```sml
+sml(){} //保留,用于以后扩展
 document(foo="bar" bar="foo"){
     //body 只包含节点
     body{
