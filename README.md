@@ -104,7 +104,7 @@ root{
     //单行注释
     attribute1[ //表示是个数组
         some(name=111){1}
-        some(name="111 222"){2}
+        some(name="111 222"){2} //属性的值如果包含空格,那么必须用双引号或者单引号包裹起来
         some(name='\"123\"'){3}
     ]
     aatribute2{
@@ -140,7 +140,7 @@ sml根据用途,划分成三种模式
 
 ```sml
 sml()
-document(foo="bar" bar="foo"){
+document(foo=bar bar=foo){
     hello document
     body{
         this is body
